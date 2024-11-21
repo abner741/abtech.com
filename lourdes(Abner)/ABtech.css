@@ -1,0 +1,46 @@
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    background-size: 100px;
+    font-family: "Kanit";
+   
+}
+h1{
+    color: beige;
+}
+
+li{
+    color: beige;
+    align-items: center;    
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(fondo\ nuevo\ de\ mi\ pagina.jpg);
+}
+li :hover{
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.Acerca{
+    margin-right: 60px;
+}
+nav li:hover{
+    color: rgb(117, 213, 112) ;
+    background-color:rgb(78, 75, 75);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
